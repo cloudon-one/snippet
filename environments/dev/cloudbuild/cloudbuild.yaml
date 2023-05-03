@@ -1,0 +1,23 @@
+steps:
+  - name: node
+    entrypoint: npm
+    args: ['install']
+  - name: node
+    entrypoint: npm
+    args: ["run", "create-env"]
+    env:
+      - 'API_DOCS='
+      - 'API_URI='
+      - 'ZENDESK_APP_KEY='
+      - 'GOOGLE_CLIENT_ID='
+      - 'INTERCOM_APP_ID='
+      - 'PROFITWELL_APP_ID='
+      - 'SOCKET_URI='
+      - 'STRIPE_KEY='
+  - name: node
+    entrypoint: npm
+    args: ['build']
+  - name: gcr.io/cloud-builders/gsutil
+    args: ["-m", "rsync", "-r", "-c", "-d", "./build", "gs://cdn-bucket-dev"]
+options:
+  logging: CLOUD_LOGGING_ONLY
