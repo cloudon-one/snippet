@@ -37,7 +37,7 @@ This will create folders structure within GCP Organization, GCS Buckets to stror
 
 ### Deploy environments
 
-    cd ../../envs/ # select next enviroenment to deploy.
+    cd ../../envs/ # select next env to deploy resources.
     terraform init
     terraform plan
     terraform apply
