@@ -1,5 +1,7 @@
 # GCP Landing Zone Template
 
+![GCP Landing Zone Template](https://github.com/cloudon-one/snippet/blob/main/GCP%20HLD%20-%20SNIPPET-GCP.png)
+
 ## Requirements
 
 - terraform v1.3+
