@@ -7,11 +7,11 @@ module "cloud_nat" {
   log_config_enable                   = true
   log_config_filter                   = "ERRORS_ONLY"
   min_ports_per_vm                    = var.min_ports_per_vm
-  name                                = "kwi-us-prod-nat"
+  name                                = ""
   network                             = module.vpc.network_name
   project_id                          = var.host_project_id
   region                              = var.region
-  router                              = "kwi-us-prod-router"
+  router                              = ""
   router_asn                          = "64514"
   router_keepalive_interval           = var.router_keepalive_interval
   source_subnetwork_ip_ranges_to_nat  = var.source_subnetwork_ip_ranges_to_nat
