@@ -6,7 +6,7 @@ variable "data_subnets_self_links" {}
 variable "data_project_name" {}
 variable "folder_id" {}
 variable "admin_project" {
-  default = "snippet-digital-admin"
+  default = ""
 }
 
 
