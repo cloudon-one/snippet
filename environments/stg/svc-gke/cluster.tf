@@ -8,9 +8,9 @@ module "gke" {
   cluster_resource_labels            = var.cluster_resource_labels
   cluster_ipv4_cidr                  = var.cluster_ipv4_cidr
   description                        = "Managed by Terraform"
-  name                               = "kwi-cluster"
+  name                               = "cluster"
   datapath_provider                  = "ADVANCED_DATAPATH"
-  network                            = "kwi-vpc"
+  network                            = "vpc"
   subnetwork                         = "gke-subnet"
   ip_range_pods                      = "pods"
   ip_range_services                  = "services"
