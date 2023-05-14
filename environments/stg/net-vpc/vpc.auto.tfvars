@@ -1,5 +1,5 @@
-host_project_id  = "kwi-stg-us-host-42bf"
-network_name = "kwi-vpc"
+host_project_id  = ""
+network_name = "vpc"
 subnets = [
   {
     subnet_name               = "gke-subnet"
