@@ -1,8 +1,8 @@
-domain          = "snippet.digital"
-billing_account = "0143DE-08FCD6-825A1E"
-environment     = "stg"
+domain          = ""
+billing_account = ""
+environment     = ""
 # -------------------------------------------
 # Projects
 # -------------------------------------------
-host_project_name = "kwi-stg-us-host"
-folder_id         = "folders/902857691512"
+host_project_name = ""
+folder_id         = ""
