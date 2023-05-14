@@ -7,7 +7,7 @@ variable "gke_project_name" {}
 variable "folder_id" {}
 
 variable "admin_project" {
-  default = "snippet-digital-admin"
+  default = ""
 }
 
 variable "gke_apis" {
