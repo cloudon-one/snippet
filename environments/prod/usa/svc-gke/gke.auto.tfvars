@@ -1,8 +1,8 @@
 # -----------
 # General
 
-project_id             = "kwi-prod-us-svc-gke-9998"
-network_project_id     = "kwi-prod-us-host-8a4a"
+project_id             = ""
+network_project_id     = ""
 
 
 #master_authorized_networks = [{
@@ -27,7 +27,7 @@ network_project_id     = "kwi-prod-us-host-8a4a"
 #  },
   #{
   #  "name"               = "apps-pool",
-  #  "machine_type"       = "n2-standard-2", # define type
+  #  "machine_type"       = "n2-standard-2"
   #  "min_count"          = "3",
   #  "max_count"          = "10",
   #  "disk_size_gb"       = "100",
