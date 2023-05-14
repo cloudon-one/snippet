@@ -1,8 +1,7 @@
-domain          = "snippet.digital"
-billing_account = "0143DE-08FCD6-825A1E"
-environment     = "dev"
-# -------------------------------------------
-# Projects
-# -------------------------------------------
-host_project_name = "kwi-dev-us-host"
-folder_id         = "folders/937507698544"
+domain            = "cloudon.one"
+billing_account   = "1234567890"
+environment       = "dev"
+host_project_id   = "$PROJECT_ID"
+folder_id         = "folders/1234567890"
+data_project_name = "$DATA_PROJECT_ID"
+data_subnets_self_links = [""]
