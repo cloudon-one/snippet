@@ -1,2 +1,2 @@
-project_id = "kwi-dev-us-host-0ff9"
+project_id = ""
 
