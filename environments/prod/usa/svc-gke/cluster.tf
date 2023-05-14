@@ -16,11 +16,11 @@ module "gke" {
   cluster_ipv4_cidr                  = var.cluster_ipv4_cidr
   node_metadata                      = "GKE_METADATA"
   description                        = "Managed by Terraform"
-  name                               = "kwi-cluster"
+  name                               = "cluster"
   cluster_dns_provider               = "PLATFORM_DEFAULT"
   cluster_dns_scope                  = "VPC_SCOPE"
   datapath_provider                  = "ADVANCED_DATAPATH"
-  network                            = "kwi-vpc"
+  network                            = "vpc"
   subnetwork                         = "gke-subnet"
   ip_range_pods                      = "pods"
   ip_range_services                  = "services"
