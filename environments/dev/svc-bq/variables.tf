@@ -1,3 +1,3 @@
 variable "admin_project" {
-  default = "snippet-digital-admin"
+  default = "cloudon-one"
 }
