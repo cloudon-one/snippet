@@ -3,7 +3,7 @@ variable "region" {
 }
 
 variable "admin_project" {
-  default = "snippet-digital-admin"
+  default = ""
 }
 
 variable "host_project_name" {
