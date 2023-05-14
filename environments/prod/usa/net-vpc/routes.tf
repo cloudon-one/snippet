@@ -3,7 +3,7 @@ module "gke_routes" {
   version = "~> 6.0.0"
 
   project_id   = var.host_project_id
-  network_name = "kwi-vpc"
+  network_name = "vpc"
 
   routes = [
     {
