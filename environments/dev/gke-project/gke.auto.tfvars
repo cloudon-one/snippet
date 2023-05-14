@@ -1,9 +1,7 @@
-domain            = "snippet.digital"
-billing_account   = "0143DE-08FCD6-825A1E"
+domain            = "cloudon.one"
+billing_account   = "1234567890"
 environment       = "dev"
-host_project_id   = "kwi-dev-us-host-0ff9"
-folder_id         = "folders/937507698544"
-gke_project_name = "kwi-dev-us-svc-gke"
-gke_subnets_self_links = ["https://www.googleapis.com/compute/v1/projects/kwi-dev-us-host-0ff9/regions/us-central1/subnetworks/data-subnet",
-"https://www.googleapis.com/compute/v1/projects/kwi-dev-us-host-0ff9/regions/us-central1/subnetworks/gke-subnet",
-"https://www.googleapis.com/compute/v1/projects/kwi-dev-us-host-0ff9/regions/us-central1/subnetworks/proxy-subnet"]
+host_project_id   = "$PROJECT_ID"
+folder_id         = "folders/1234567890"
+data_project_name = "$DATA_PROJECT_ID"
+data_subnets_self_links = [""]
