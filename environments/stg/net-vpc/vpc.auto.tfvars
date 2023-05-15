@@ -1,5 +1,5 @@
 host_project_id  = ""
-network_name = "vpc"
+network_name = ""
 subnets = [
   {
     subnet_name               = "gke-subnet"
