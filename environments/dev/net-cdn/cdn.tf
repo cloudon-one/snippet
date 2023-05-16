@@ -50,7 +50,7 @@ resource "google_compute_global_address" "cdn_public_address" {
 }
 
 resource "google_dns_record_set" "cdn" {
-  managed_zone = "dev-keywordinsights-tech"
+  managed_zone = "cdn.cloudon.one."
   name         = "${local.cdn_domain}."
   type         = "A"
   ttl          = 3600 # 1 hour
@@ -59,7 +59,7 @@ resource "google_dns_record_set" "cdn" {
 }
 
 locals {
-  cdn_domain = "cdn.dev.keywordinsights.tech"
+  cdn_domain = "cdn.dev.cloudon.one."
 }
 # ------------------------------------------------------------------------------
 # CREATE A GLOBAL FORWARDING RULE

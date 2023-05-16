@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "snippet-digital-admin-dev"
-    prefix = "envs/dev/net-cdn"
+    bucket = "your-gcs-remote-tf-state-bucket"
+    prefix = "/path/to/your/terrafrom/stat/gcs.tfstate"
   }
 }

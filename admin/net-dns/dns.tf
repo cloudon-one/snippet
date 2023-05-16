@@ -3,7 +3,7 @@ module "cloud-dns" {
   version = "4.2.0"
   domain = ""
   name = ""
-  type = "public"
+  type = ""
   project_id = var.project_id
   recordsets = var.recordsets
 }

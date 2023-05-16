@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = ""
-    prefix = ""
+    bucket = "your-gcs-remote-tf-state-bucket"
+    prefix = "/path/to/your/terrafrom/stat/gcs.tfstate"
   }
 }
